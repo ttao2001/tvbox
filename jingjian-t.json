@@ -1,1411 +1,644 @@
 {
   "sites": [
     {
-      "key": "iqiyizyapi.com",
-      "name": "🎬-爱奇艺-",
-      "type": 1,
-      "api": "https://iqiyizyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "dbzy.tv",
-      "name": "🎬豆瓣资源",
-      "type": 1,
-      "api": "https://caiji.dbzy5.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "tyyszy.com",
+      "key": "tyyszyapi",
       "name": "🎬天涯影视",
       "type": 1,
       "api": "https://tyyszy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "mtzy.me",
-      "name": "🎬茅台资源",
+      "key": "ckzy.me",
+      "name": "🎬CK资源",
       "type": 1,
-      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/?ac=list",
+      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "wolongzyw.com",
-      "name": "🎬卧龙资源",
-      "type": 1,
-      "api": "https://wolongzyw.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "ikunzy.com",
-      "name": "🎬iKun资源",
-      "type": 1,
-      "api": "https://ikunzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "lzizy.net",
+      "key": "lzi",
       "name": "🎬量子影视",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "dyttzyapi.com",
-      "name": "🎬电影天堂",
-      "type": 1,
-      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "1080zyk4.com",
-      "name": "🎬优质资源",
-      "type": 1,
-      "api": "https://api.yzzy-api.com/inc/apijson.php/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "www.maoyanzy.com",
-      "name": "🎬猫眼资源",
-      "type": 1,
-      "api": "https://api.maoyanapi.top/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "cj.lzcaiji.com",
+      "key": "lzcaiji",
       "name": "🎬量子资源",
       "type": 1,
       "api": "https://cj.lzcaiji.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.ryzyw.com",
-      "name": "🎬如意资源",
-      "type": 1,
-      "api": "https://jjpz.hafrey.dpdns.org/?url=https://cj.rycjapi.com/api.php/provide/vod&ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "360zy.com",
-      "name": "🎬360 资源",
-      "type": 1,
-      "api": "https://360zy.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "collect.wolongzyw.com",
-      "name": "🎬卧龙影视",
-      "type": 1,
-      "api": "https://collect.wolongzyw.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "jszyapi.com",
-      "name": "🎬极速资源",
+      "key": "jisu",
+      "name": "极速资源",
       "type": 1,
       "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.moduzy.net",
-      "name": "🎬魔都资源",
+      "key": "mdzy",
+      "name": "魔都资源",
       "type": 1,
       "api": "https://www.mdzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "ffzyapi.com",
-      "name": "🎬非凡资源",
-      "type": 1,
-      "api": "https://api.ffzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "bfzy.tv",
+      "key": "bfzy",
       "name": "🎬暴风资源",
       "type": 1,
       "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "zuida.xyz",
+      "key": "zuid",
       "name": "🎬最大资源",
       "type": 1,
       "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "zuidazy.co",
+      "key": "zuidazy",
       "name": "🎬最大点播",
       "type": 1,
       "api": "https://zuidazy.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "wujinzy.me",
+      "key": "yinghua",
+      "name": "🎬樱花资源",
+      "type": 1,
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "wujin",
       "name": "🎬无尽资源",
       "type": 1,
       "api": "https://api.wujinapi.me/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "wujinzy.com",
-      "name": "🎬无尽影视",
+      "key": "wujincom",
+      "name": "🎬无尽资源1",
       "type": 1,
       "api": "https://api.wujinapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "xinlangapi.com",
+      "key": "xsd_sdzyapi",
+      "name": "🎬索尼资源",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "kuaichezy",
+      "name": "🎬快车资源",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "shandian",
+      "name": "🎬闪电资源",
+      "type": 1,
+      "api": "https://xsd.sdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "xinlangapi",
       "name": "🎬新浪资源",
       "type": 1,
       "api": "https://api.xinlangapi.com/xinlangapi.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "wwzy.tv",
+      "key": "wwzy",
       "name": "🎬旺旺短剧",
       "type": 1,
       "api": "https://wwzy.tv/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "api.wwzy.tv",
+      "key": "apiwwzy",
       "name": "🎬旺旺资源",
       "type": 1,
       "api": "https://api.wwzy.tv/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.haohuazy.com",
-      "name": "🎬豪华资源",
+      "key": "huyaapi",
+      "name": "🎬虎牙资源",
       "type": 1,
-      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://www.huyaapi.com/api.php/provide/vod/at/json/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.subozy.com",
-      "name": "🎬速播资源",
-      "type": 1,
-      "api": "https://subocaiji.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "jinyingzy.com",
+      "key": "jinyingzy",
       "name": "🎬金鹰点播",
       "type": 1,
       "api": "https://jinyingzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "jinyingzy.net",
+      "key": "jyzyapi",
       "name": "🎬金鹰资源",
       "type": 1,
       "api": "https://jyzyapi.com/provide/vod/from/jinyingyun/at/json/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "p2100.net",
+      "key": "p2100",
       "name": "🎬飘零资源",
       "type": 1,
       "api": "https://p2100.net/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "api.ukuapi88.com",
-      "name": "🎬U酷影视",
-      "type": 1,
-      "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "api.guangsuapi.com",
+      "key": "guangsuapi",
       "name": "🎬光速资源",
       "type": 1,
       "api": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.hongniuzy.com",
+      "key": "hongniuzy",
       "name": "🎬红牛资源",
       "type": 1,
       "api": "https://www.hongniuzy2.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "caiji.moduapi.cc",
+      "key": "modu",
       "name": "🎬魔都动漫",
       "type": 1,
       "api": "https://caiji.moduapi.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "zy.sh0o.cn",
-      "name": "🎬山海资源",
-      "type": 1,
-      "api": "https://zy.sh0o.cn/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "91md.me",
-      "name": "🔞麻豆视频",
-      "type": 1,
-      "api": "https://91md.me/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "91jpzyw.com",
-      "name": "🔞91-精品-",
-      "type": 1,
-      "api": "https://91jpzyw.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "ckzy.me",
-      "name": "🔞 CK-资源",
-      "type": 1,
-      "api": "https://ckzy.me/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "lbapiby.com",
-      "name": "🔞--AIvin-",
+      "key": "lbapiby",
+      "name": "🔞AIvin",
       "type": 1,
       "api": "http://lbapiby.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "api.bwzym3u8.com",
+      "key": "bwzy2",
       "name": "🔞百万资源",
       "type": 1,
       "api": "https://api.bwzyz.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "api.souavzy.vip",
+      "key": "souavzy",
       "name": "🔞souavZY",
       "type": 1,
       "api": "https://api.souavzy.vip/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "155zy2.com",
-      "name": "🔞155-资源",
+      "key": "155zy",
+      "name": "🔞155资源",
       "type": 1,
       "api": "https://155api.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "apiyutu.com",
+      "key": "apiyutu",
       "name": "🔞玉兔资源",
       "type": 1,
       "api": "https://apiyutu.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "fhapi9.com",
-      "name": "🔞番号资源",
-      "type": 1,
-      "api": "http://fhapi9.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "www.kxgav.com",
+      "key": ".kxgav",
       "name": "🔞白嫖资源",
       "type": 1,
       "api": "https://www.kxgav.com/api/json.php/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.jingpinx.com",
+      "key": "jingpinx",
       "name": "🔞精品资源",
       "type": 1,
       "api": "https://www.jingpinx.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "apilsbzy1.com",
-      "name": "🔞-老色逼-",
+      "key": "apilsbzy1",
+      "name": "🔞老色逼",
       "type": 1,
       "api": "https://apilsbzy1.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "thzy8.me",
-      "name": "🔞桃花资源",
-      "type": 1,
-      "api": "https://thzy1.me/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "www.yyzywcj.com",
+      "key": "yyzy",
       "name": "🔞优优资源",
       "type": 1,
       "api": "https://www.yyzywcj.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "xiaojizy.live",
+      "key": "xjzy",
       "name": "🔞小鸡资源",
       "type": 1,
       "api": "https://api.xiaojizy.live/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.pgxdy.com",
-      "name": "🔞-黄AVZY",
+      "key": ".pgxdy",
+      "name": "🔞黄AVZY",
       "type": 1,
       "api": "https://www.pgxdy.com/api/json.php/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "hsckzy.xyz",
+      "key": "hsckzy",
       "name": "🔞黄色仓库",
       "type": 1,
       "api": "https://hsckzy.xyz/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "apidanaizi.com",
-      "name": "🔞-大奶子-",
+      "key": "dnzzy",
+      "name": "🔞大奶子",
       "type": 1,
       "api": "https://apidanaizi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "www.xxibaozyw.com",
-      "name": "🔞细胞资源",
+      "key": "xbzy",
+      "name": "🔞杏吧资源",
       "type": 1,
-      "api": "https://www.xxibaozyw.com/api.php/provide/vod/?ac=list",
+      "api": "https://xingba111.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "jkunzyapi.com",
-      "name": "🔞jkun资源",
-      "type": 1,
-      "api": "https://jkunzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "api.sexnguon.com",
-      "name": "🔞-色南国-",
-      "type": 1,
-      "api": "https://api.sexnguon.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "lbapi9.com",
-      "name": "🔞乐播资源",
-      "type": 1,
-      "api": "https://lbapi9.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "www.msnii.com",
-      "name": "🔞-美少女-",
+      "key": "msnii",
+      "name": "🔞美少女",
       "type": 1,
       "api": "https://www.msnii.com/api/json.php/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "Naixxzy.com",
+      "key": "Naixxzy",
       "name": "🔞奶香资源",
       "type": 1,
       "api": "https://Naixxzy.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "slapibf.com",
-      "name": "🔞森林资源",
+      "key": "semaozy",
+      "name": "🔞色猫资源",
       "type": 1,
-      "api": "https://beiyong.slapibf.com/api.php/provide/vod/?ac=list",
+      "api": "https://caiji.semaozy.net/inc/apijson_vod.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "apilj.com",
-      "name": "🔞辣椒资源",
-      "type": 1,
-      "api": "https://apilj.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "shayuapi.com",
-      "name": "🔞鲨鱼资源",
-      "type": 1,
-      "api": "https://shayuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "xzytv.com",
-      "name": "🔞-幸资源-",
+      "key": "xzybb21",
+      "name": "🔞幸资源",
       "type": 1,
       "api": "https://xzybb2.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "zuisezy.com",
+      "key": "zuiseapi",
       "name": "🔞最色资源",
       "type": 1,
       "api": "https://api.zuiseapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "doudouzy.com",
-      "name": "🔞豆豆资源",
-      "type": 1,
-      "api": "https://api.douapi.cc/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
-    },
-    {
-      "key": "didizy.com",
+      "key": "xzybb2",
       "name": "🔞滴滴资源",
       "type": 1,
       "api": "https://api.ddapi.cc/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
     },
     {
-      "key": "xiangjiaozyw.com",
-      "name": "🔞香蕉资源",
+      "key": "swzy",
+      "name": "🔞丝袜资源",
       "type": 1,
-      "api": "https://www.xiangjiaozyw.com/api.php/provide/vod/?ac=list",
+      "api": "https://siwazyw.tv/api.php/provide/vod/at/json/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "国产剧",
-        "动作片",
-        "喜剧片",
-        "科幻片",
-        "爱情片",
-        "纪录片",
-        "动画片",
-        "欧美剧",
-        "香港剧",
-        "短剧"
-      ]
+      "categories": []
+    },
+    {
+      "key": "api_1",
+      "name": "TV-1080资源",
+      "type": 1,
+      "api": "https://api.1080zyku.com/inc/api_mac10.php/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_8",
+      "name": "TV-wujinapi无尽",
+      "type": 1,
+      "api": "https://api.wujinapi.cc/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_9",
+      "name": "TV-丫丫点播",
+      "type": 1,
+      "api": "https://cj.yayazy.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_20",
+      "name": "TV-无尽资源",
+      "type": 1,
+      "api": "https://api.wujinapi.net/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_24",
+      "name": "TV-最大点播",
+      "type": 1,
+      "api": "http://zuidazy.me/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_28",
+      "name": "TV-牛牛点播",
+      "type": 1,
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_32",
+      "name": "TV-神马云",
+      "type": 1,
+      "api": "https://api.1080zyku.com/inc/apijson.php//?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_36",
+      "name": "TV-虎牙资源",
+      "type": 1,
+      "api": "https://www.huyaapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_38",
+      "name": "TV-豆瓣资源",
+      "type": 1,
+      "api": "https://dbzy.tv/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_43",
+      "name": "TV-金鹰资源",
+      "type": 1,
+      "api": "https://jyzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_44",
+      "name": "TV-閃電资源",
+      "type": 1,
+      "api": "https://sdzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_59",
+      "name": "AV-森林资源",
+      "type": 1,
+      "api": "https://slapibf.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_60",
+      "name": "AV-淫水机资源",
+      "type": 1,
+      "api": "https://www.xrbsp.com/api/json.php/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "api_70",
+      "name": "AV-香奶儿资源",
+      "type": 1,
+      "api": "https://www.gdlsp.com/api/json.php/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "hongniuziyuan",
+      "name": "红牛资源",
+      "type": 1,
+      "api": "https://www.hongniuzy3.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "huangseziy",
+      "name": "黄色资源啊啊",
+      "type": 1,
+      "api": "https://hsckzy888.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "kauicheziyuan",
+      "name": "快车资源阿",
+      "type": 1,
+      "api": "https://caiji.kuaichezy.org/api.php/provide/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
+    },
+    {
+      "key": "yingshigongchang",
+      "name": "影视工厂",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod//?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": []
     }
   ]
 }
