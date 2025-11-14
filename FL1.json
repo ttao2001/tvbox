@@ -3,9 +3,9 @@
     "sites": [
         { "key": "✨豆瓣✨", "name": "✨豆瓣✨", "type": 3, "api": "csp_Douban", "searchable": 0, "changeable": 1, "indexs": 1, "ext": "https://hub.gitmirror.com/raw.githubusercontent.com/leexuben/TV-BOX/refs/heads/main/tvbox/pg/jar/douban.json" },
 		{ "key": "py_Miss", "name": "🔞MissAV(T4)", "type": 4, "api": "https://py.doube.eu.org/spider?site=Miss", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
-                                { "key": "py_Miss", "name": "🔞CK-资源", "type": 4, "api": "https://ckzy.me/api.php/provide/vod", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
-                                { "key": "py_Miss", "name": "🔞--AIvin-", "type": 4, "api": "http://lbapiby.com/api.php/provide/vod", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
-                                { "key": "py_Miss", "name": "🔞-大奶子-", "type": 4, "api": "https://apidanaizi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
+                                { "key": "CK", "name": "🔞CK-资源", "type": 4, "api": "https://ckzy.me/api.php/provide/vod", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
+                                { "key": "AIvin", "name": "🔞--AIvin-", "type": 4, "api": "http://lbapiby.com/api.php/provide/vod", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
+                                { "key": "大奶子", "name": "🔞-大奶子-", "type": 4, "api": "https://apidanaizi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 0, "filterable": 0, "changeable": 0 },
 		
             ],
     "lives": [
