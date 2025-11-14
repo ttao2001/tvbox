@@ -4,6 +4,8 @@
 "sites":[
 {"key":"光速資源","name":"光速資源🔪","type":1,"api":"https://api.guangsuapi.com/api.php/provide/vod","searchable":1,"quickSearch":1},
 {"key": "非凡資源","name": "非凡資源🔪","type": 0,"api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml",   "searchable": 1,"quickSearch": 1,"filterable": 1},
+{"key":"爱奇艺資源","name":"爱奇艺資源🔪","type":1,"api":"https://iqiyizyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1},
+{"key":"最大点播","name":"最大点播🔪","type":1,"api":"https://zuidazy.me/api.php/provide/vod","searchable":1,"quickSearch":1},
 {
       "key": "老色逼",
       "name": "老色逼資源|AV",
