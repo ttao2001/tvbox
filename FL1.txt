@@ -19,7 +19,7 @@
 {"key":"玉兔资源","name":"🟣玉兔資源🔪","type":1,"api":"https://apiyutu.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"幸资源","name":"🟣幸資源","type":1,"api":"https://xzybb2.com/api.php/provide/vod","searchable":1,"quickSearch":1},
 {"key":"奶香香","name":"🟣奶香香🔪","type":1,"api":"https://Naixxzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"奥斯卡","name":"🟣奥斯卡🔪","type":1,"api":"https://aosikazy.com/api.php/provide/vod","searchable":1,"quickSearch":1},
+{"key":"jkun资源","name":"🟣jkun资源🔪","type":1,"api":"https://jkunzyapi.com/api.php/provide/vod","searchable":1,"quickSearch":1},
 {"key":"大奶子","name":"🟣大奶子🔪","type":1,"api":"https://apidanaizi.com/api.php/provide/vod","searchable":1,"quickSearch":1},
 {"key":"夜色资源","name":"🟣越南資源🔪","type":1,"api":"https://www.vnzyz.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"奧斯卡資源","name":"奧斯卡資源🔪","type":0,"api":"https://aosikazy.com/api.php/provide/vod/at/xml"},
