@@ -1,0 +1,56 @@
+{
+  "spider": "",
+  "sites": [
+    {
+      "key": "7b4s_3213",
+      "name": "7B4S影视",
+      "type": 1,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "homeUrl": "https://3213.7b4s.com/web/",
+        "cateManual": {
+          "电影": "1",
+          "电视剧": "2",
+          "综艺": "3",
+          "动漫": "4",
+          "短剧": "22"
+        },
+        "cateUrl": "https://3213.7b4s.com/web/vod/list.html?type={cateId}&page={page}",
+        "listNode": "//div[contains(@class,'vodlist')]//li|//ul[contains(@class,'stui-vodlist')]//li",
+        "listTitle": ".//a[contains(@class,'vodlist_title')]/@title|.//h3/a/@title",
+        "listUrl": ".//a[contains(@class,'vodlist_title')]/@href|.//h3/a/@href",
+        "listPic": ".//img/@data-src|.//img/@src",
+        "listRemark": ".//span[contains(@class,'remarks')]/text()|.//span[contains(@class,'pic-tag')]/text()",
+        "detailTitle": "//h1[contains(@class,'stui-content__title')]/text()|//h2[contains(@class,'vod-title')]/text()",
+        "detailPic": "//div[contains(@class,'stui-content__thumb')]//img/@src|//div[contains(@class,'vod-img')]//img/@src",
+        "detailDesc": "//p[contains(@class,'col-xs-full')]/span[@class='detail-content']/text()|//div[contains(@class,'vod-content')]/text()",
+        "playList": "//div[contains(@class,'stui-vodlist__box')]//a|//div[contains(@class,'play-source')]//a",
+        "playName": "./text()",
+        "playUrl": "./@href",
+        "searchUrl": "https://3213.7b4s.com/web/search.html?wd={wd}"
+      }
+    }
+  ],
+  "parses": [
+    {
+      "name": "通用解析1",
+      "type": 1,
+      "url": "https://jx.playerjy.com/?url="
+    },
+    {
+      "name": "通用解析2",
+      "type": 1,
+      "url": "https://www.ckplayer.vip/jiexi/?url="
+    },
+    {
+      "name": "通用解析3",
+      "type": 0,
+      "url": "https://json.m3u8.tv/jx.php?url="
+    }
+  ],
+  "lives": [],
+  "doh": []
+}
