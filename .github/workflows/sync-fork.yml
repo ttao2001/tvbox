@@ -1,0 +1,35 @@
+name: Sync fork
+
+on:
+  schedule:
+    - cron: '0 * * * *'    # 每小时第 0 分运行（UTC）
+  workflow_dispatch:       # 支持手动触发
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync with upstream (qist/tvbox)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          HTTP=$(curl -s -o resp.json -w "%{http_code}" \
+            -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -d '{"branch":"main"}' \
+            "https://api.github.com/repos/${{ github.repository }}/merge-upstream")
+
+          echo "HTTP $HTTP"
+          cat resp.json
+
+          case "$HTTP" in
+            204) echo "已是最新，无需同步" ;;
+            201) echo "存在非快进差异，已自动创建同步 PR，请在 PR 页面确认合并" ;;
+            400) echo "存在冲突，无法自动同步，请本地处理"; exit 0 ;;
+            *)   echo "同步失败"; exit 1 ;;
+          esac
