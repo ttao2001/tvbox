@@ -7,7 +7,6 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   sync:
@@ -24,12 +23,23 @@ jobs:
             -d '{"branch":"master"}' \
             "https://api.github.com/repos/${{ github.repository }}/merge-upstream")
 
-          echo "HTTP $HTTP"
+          echo "HTTP CODE: $HTTP"
           cat resp.json
 
-          case "$HTTP" in
-            204) echo "已是最新，无需同步" ;;
-            201) echo "存在非快进差异，已自动创建同步 PR，请在 PR 页面确认合并" ;;
-            400) echo "存在冲突，无法自动同步，请本地处理"; exit 0 ;;
-            *)   echo "同步失败"; exit 1 ;;
-          esac
+          if [ "$HTTP" -eq 200 ]; then
+            MSG=$(cat resp.json | jq -r '.message')
+            if [[ "$MSG" == *"This branch is not behind the upstream"* ]]; then
+              echo "✅ 同步成功：当前版本已是最新，无需同步"
+            else
+              echo "⚠️ 存在差异：已自动创建同步 PR，请在 PR 页面手动确认合并"
+            fi
+          elif [ "$HTTP" -eq 204 ]; then
+            echo "✅ 同步成功：无冲突快进合并"
+          elif [ "$HTTP" -eq 409 ]; then
+            echo "❌ 同步失败：存在严重冲突，请本地手动处理"
+            exit 1
+          else
+            echo "❌ 未知错误: $HTTP"
+            cat resp.json
+            exit 1
+          fi
