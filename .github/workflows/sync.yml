@@ -29,4 +29,4 @@ jobs:
 
       - name: Push to fork
         if: env.CONFLICT != 'true'
-        run: git push --force origin main #强制同步；冲突提醒：git push origin main
+        run: git push force origin main #强制同步；冲突提醒：git push origin main
