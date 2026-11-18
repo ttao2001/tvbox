@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 * * * *'   # 每小时整点同步一次
   workflow_dispatch:      # 允许手动运行
-  if: false   # 加这一行，暂停自动同步
+  if: false   # 加这一行，暂停自动同步;true,同步
 
 jobs:
   sync:
