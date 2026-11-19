@@ -2,7 +2,7 @@ name: Sync fork
 
 on:
   schedule:
-    - cron: '0 * * * *'    # 每小时第 0 分运行（UTC）
+    - cron: '0 21 * * *'    # 每小时第 0 分运行（UTC）
   workflow_dispatch:       # 支持手动触发
 
 permissions:
