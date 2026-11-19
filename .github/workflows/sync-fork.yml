@@ -1,68 +1,43 @@
-# GitHub Actions 工作流名称
 name: Auto Sync Fork via API
 
-# 定义触发条件
 on:
   schedule:
-    # 定时任务：每天北京时间 05:00 执行（Cron 使用 UTC 时间，即前一天的 21:00）
-    - cron: '0 * * * *'
+    - cron: '0 * * * *' # 每天北京时间 05:00
   workflow_dispatch:
-    # 允许在 GitHub Actions 界面手动点击按钮触发
 
-# 定义工作流需要的权限
 permissions:
   contents: write
   pull-requests: write
 
-# 任务列表
 jobs:
   sync:
-    # 指定运行环境为最新版 Ubuntu
     runs-on: ubuntu-latest
-
-    # 步骤列表
     steps:
-      # 第一步：调用 GitHub 官方 API 同步上游仓库
       - name: Sync with upstream (qist/tvbox)
         env:
-          # 将 GitHub 自动生成的密钥 Token 赋值给环境变量 GH_TOKEN
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # 使用 curl 发送 POST 请求到 merge-upstream API
-          # -s: 静默模式，不打印进度条
-          # -o resp.json: 将 API 的响应内容保存到 resp.json 文件中
-          # -w "%{http_code}": 只将 HTTP 状态码（如 200, 204 等）输出并赋值给 HTTP 变量
           HTTP=$(curl -s -o resp.json -w "%{http_code}" \
             -X POST \
-            # 设置请求头：使用 Bearer Token 进行身份认证
             -H "Authorization: Bearer $GH_TOKEN" \
-            # 设置请求头：要求返回 GitHub v3 JSON 格式数据
             -H "Accept: application/vnd.github+json" \
-            # 请求体：指定需要同步的目标分支名称为 master
             -d '{"branch":"master"}' \
-            # 官方同步 API 的接口地址
             "https://api.github.com/repos/${{ github.repository }}/merge-upstream")
-
-          # 在日志中打印获取到的 HTTP 状态码，方便排错
-          echo "HTTP CODE: $HTTP"
-          # 打印 API 返回的详细 JSON 响应内容
-          echo "API RESPONSE:"
-          cat resp.json
-
-          # 使用 Bash Shell 脚本的 if/elif/else/fi 结构来判断同步结果
+          
+          echo "同步状态码: $HTTP"
+          
           if [ "$HTTP" -eq 200 ]; then
-            # 状态码 200：表示你的分支没有落后于上游，已经是最新状态
-            echo "✅ 同步成功：当前分支已是最新，无需更新"
+            echo "✅ 同步成功：当前版本已是最新"
           elif [ "$HTTP" -eq 204 ]; then
-            # 状态码 204：表示上游有新提交，且无冲突，已成功快进合并
-            echo "✅ 同步成功：已从上游合并最新代码"
+            echo "✅ 同步成功：上游代码已成功合并"
           elif [ "$HTTP" -eq 409 ]; then
-            # 状态码 409：表示存在严重的合并冲突，API 无法自动处理
-            echo "⚠️ 同步跳过：存在合并冲突，需要人工手动解决"
+            echo "⚠️ 存在冲突：已跳过，请手动处理"
           elif [ "$HTTP" -eq 400 ]; then
-            # 状态码 400：表示你的 fork 与上游存在分歧，API 已自动为你创建了一个同步 PR
-            echo "⚠️ 同步提示：已自动创建合并 PR，请前往 GitHub 页面手动合并"
+            echo "⚠️ 已自动创建合并 PR，请前往页面确认"
           else
-            # 其他未知错误，如权限不足等
-            echo "❌ 同步失败，未知 HTTP 状态码: $HTTP"
+            echo "❌ 未知错误，状态码: $HTTP"
+            cat resp.json
+            exit 1
           fi
+
+
